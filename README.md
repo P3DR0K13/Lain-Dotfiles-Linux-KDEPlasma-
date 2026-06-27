@@ -1,4 +1,4 @@
-# 🌐 Lain-Dotfiles-Linux-KDEPlasma-
+# ௵ Lain-Dotfiles-Linux-KDEPlasma-
 
 > *"Present day, present time. Hahaha..."*
 
@@ -6,7 +6,7 @@ A minimalist and customized KDE Plasma environment inspired by the aesthetics of
 
 ---
 
-## 📸 Screenshots
+## ⪺ Screenshots
 
 Here is how the setup looks in action:
 
@@ -21,7 +21,7 @@ Here is how the setup looks in action:
 
 ---
 
-## 🛠️ What's Included?
+## ⢚ What's Included?
 * **DE:** KDE Plasma (Shortcuts, KWin rules, Globals)
 * **Shell:** Fish Shell (with custom functions included)
 * **Terminal:** Alacritty (Fonts and color scheme configurations)
@@ -30,7 +30,7 @@ Here is how the setup looks in action:
 
 ---
 
-## 🚀 Automatic Installation
+## ░ Automatic Installation
 
 To automatically apply all configurations, symbolic links, fonts, and wallpapers directly onto your system, simply run the included installation script:
 
