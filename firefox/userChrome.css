@@ -1,0 +1,49 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* Remove borda/outline geral */
+* {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* remove arredondamento (muito importante pro seu caso) */
+#browser {
+border-radius: 0 !important;
+}
+
+:root {
+    --toolbar-bgcolor: #000000 !important;
+    --toolbar-color: #ffffff !important;
+
+    --lwt-accent-color: #000000 !important; /* topo */
+    --lwt-text-color: #ffffff !important;
+
+    --tab-selected-bgcolor: #111111 !important;
+    --tab-selected-textcolor: #ffffff !important;
+}
+
+/* Nuclear option: dessatura TODOS os ícones do chrome */
+toolbar image,
+toolbarbutton image,
+.tab-icon-image,
+.identity-icon,
+.tab-throbber {
+    filter: grayscale(100%) contrast(200%) !important;
+}
+
+menupopup {
+    --panel-background: #000000 !important;
+    --panel-color: #ffffff !important;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+menu, menuitem {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+menuitem:hover {
+    background-color: #111111 !important;
+}

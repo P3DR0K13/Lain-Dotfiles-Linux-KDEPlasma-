@@ -1,0 +1,24 @@
+@namespace url("http://www.w3.org/1999/xhtml");
+
+/* Página privada */
+@-moz-document url("about:privatebrowsing") {
+    body {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+    }
+}
+
+@-moz-document url("about:newtab"), url("about:home") {
+
+    menu.personalizeButtonWrapper {
+        display: none !important;
+    }
+}
+
+
+/* Newtab customizado */
+@-moz-document url("about:newtab"), url("about:home") {
+    browser {
+        display: none !important;
+    }
+}
